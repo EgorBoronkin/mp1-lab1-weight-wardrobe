@@ -15,7 +15,7 @@ void main()
 	scanf_s("%i", &d);
 	if ((180 <= h && h <= 220) && (80 <= w && w <= 120) && (50 <= d && d <= 90))
 	{
-		if (h < 220)
+		if (h < 200)
 		{
 			weight = ((h * w * 0.5 * p_dvp) + (h * d * 1.5 * p_dsp * 2) + (w * d * 1.5 * p_dsp * 2) + (h * w * p_wood * 2) + (w * d * 1.5 * p_dsp * 4)) / 1000;
 			printf("Weight of wardrobe - %.2f kg", weight);
